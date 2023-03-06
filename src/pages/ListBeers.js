@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 function Beers() {
     const [beers, setBeers] = useState("")
-    const [filter, setFilter] = useState("")
 
 
     useEffect(() => {
